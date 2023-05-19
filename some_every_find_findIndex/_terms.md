@@ -1,12 +1,13 @@
 Important terms and ideas:
 
 1. Find: A built-in array method in JavaScript used to find the first element in an array that matches a specified condition. It returns the value of the first matching element or `undefined` if no match is found.
-2. Callback function: A function passed to `find` that defines the condition for finding an element. It is run on each element of the array until a match is found.
-3. Matching element: An element in the array that satisfies the condition specified in the callback function.
-4. Only returns the first match: `find` stops iterating over the array and returns the first element that matches the condition. It does not continue searching for additional matches.
-5. Find Index: A built-in array method in JavaScript used to find the index of the first element in an array that matches a specified condition. It returns the index of the first matching element or `-1` if no match is found.
-6. Index: The position of an element in the array, starting from 0.
-7. Similarities between `find` and `findIndex`: Both methods iterate over the array and apply a callback function to each element. They stop and return the first matching element or index encountered.
+2. Find Index: A built-in array method in JavaScript used to find the index of the first element in an array that matches a specified condition. It returns the index of the first matching element or `-1` if no match is found.
+3. Callback function: A function passed to `find` or `findIndex` that defines the condition for finding an element. It is run on each element of the array until a match is found.
+4. Matching element: An element in the array that satisfies the condition specified in the callback function.
+5. Iteration: `find` and `findIndex` iterate over the array and apply the callback function to each element until a match is found.
+6. Only returns the first match: Both `find` and `findIndex` stop iterating over the array and return the first element or index that matches the condition. They do not continue searching for additional matches.
+7. Index: The position of an element in the array, starting from 0.
+8. Similarities between `find` and `findIndex`: Both methods iterate over the array and apply a callback function to each element. They stop and return the first matching element or index encountered.
 
 Code snippets:
 
@@ -57,4 +58,4 @@ console.log(result);
 // Output: [[0, 0, 0, 75], [77, 80, 85, 88, 93]]
 ```
 
-These code snippets demonstrate the usage of `find` and `findIndex` in various scenarios. The first two snippets use `find` to find specific elements in an array based on conditions. The next two snippets use `findIndex` to find the index of specific elements. The last snippet shows how `findIndex` can be used to create a custom partition function that splits an array into two sub-arrays based on a pivot point.
+These code snippets demonstrate the usage of `find` and `findIndex` in various scenarios. The first two snippets use `find` to find specific elements in an array based on conditions. The next two snippets use `findIndex` to find the index of specific elements. The last
