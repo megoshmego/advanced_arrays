@@ -49,22 +49,43 @@ Code snippets for the remaining information:
 12. **forEach Method**:
     ```const colors = ['red', 'green', 'blue'];
 
-colors.forEach(color => {
-  console.log(color);
-});
-// Output:
-// red
-// green
-// blue
-```
+    colors.forEach(color => {
+    console.log(color);
+    });
+    // Output:
+    // red
+    // green
+    // blue
+    ```
 
 
 13. **Reduce Method**:
 
-```const numbers = [1, 2, 3, 4, 5];
+    ```const numbers = [1, 2, 3, 4, 5];
 
-const sum = numbers.reduce((total, num) => total + num, 0);
-console.log(sum);
-// Output: 15
+    const sum = numbers.reduce((total, num) => total + num, 0);
+    console.log(sum);
+    // Output: 15
 
-```
+    ```
+
+14. **Some**
+
+    ```const numbers = [1, 2, 3, 4, 5];
+
+    const hasEvenNumber = numbers.some(number => number % 2 === 0);
+    console.log(hasEvenNumber);
+    // Output: true
+
+    ```
+
+15. **Every**
+    
+    ```const numbers = [2, 4, 6, 8, 10];
+
+    const allEvenNumbers = numbers.every(number => number % 2 === 0);
+    console.log(allEvenNumbers);
+    // Output: true
+
+    ```
+

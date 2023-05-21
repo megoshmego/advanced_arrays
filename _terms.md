@@ -20,5 +20,9 @@ Certainly! Here is a condensed list of important terms and definitions related t
 16. Modifying Original Array: Altering the elements of the original array directly.
 17. Method Chaining: Invoking multiple methods on an array in a single expression.
 18. forEach(): allows you to iterate over an array and perform an action for each element without creating a new array. 
-
-By understanding these terms and concepts, you will be well-equipped to utilize and make the most of array methods in your coding tasks as a software engineer.
+19. every(): method that tests whether all elements in the array satisfy a provided condition. returns true if all elements pass the condition, otherwise returns false.
+20. some(): method that tests whether at least one element in the array satisfies a provided condition. It returns 'true' if any element passes the condition, otherwise 'false'.
+21. hoisting: Function declarations are hoisted, which means that they are moved to the top of their containing scope during the compilation phase, this allows you to call the function before it is declared in the code. 
+22. function expression assignement: Function expressions are assigned as values to variables, making them behave like any other variable in Javascript. 
+23. When to use function declarations?: typically used when you want to define a reusable function that can be called multiple times throughout your code. they are convenient for creating named functions that are accessible within their scope, including before their declaration. 
+24. When to use function expressions?: when you want to assign a function to a variable, create functions, dynamically, or pass functions as arguments to other funcitons. they provide flexibility and allow you to create functions at runtime. 
